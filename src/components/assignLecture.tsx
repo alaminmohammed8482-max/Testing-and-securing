@@ -138,14 +138,14 @@ export default function AssignLecture() {
     },
     {
       accessorKey: "courseName",
-      header: "Course Name",
+      header: "Case Name",
       cell: ({ row }) => (
         <div className="font-medium">{row.getValue("courseName")}</div>
       ),
     },
     {
       accessorKey: "lectureName",
-      header: "Lecture Assign",
+      header: "Case Assign",
       cell: ({ row }) => (
         <div className="font-medium">{row.getValue("lectureName")}</div>
       ),

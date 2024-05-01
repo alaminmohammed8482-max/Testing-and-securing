@@ -196,7 +196,7 @@ export default function Lecture() {
     },
     {
       accessorKey: "courseName",
-      header: "Course Name",
+      header: "Case Name",
       cell: ({ row }) => {
         return (
           <div className="text-left font-medium w-[150px]">
