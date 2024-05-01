@@ -138,26 +138,26 @@ export default function Home() {
           >
             {[
               {
-                name: "Users",
-                des: "View all Users",
+                name: "Police's",
+                des: "View all police.",
                 total: totals.users,
                 url: "users",
               },
               {
-                name: "Courses",
-                des: "View all courses.",
+                name: "Case",
+                des: "View all case.",
                 total: totals.courses,
                 url: "courses",
               },
               {
-                name: "Lectures",
-                des: "View all lectures",
+                name: "Sub Case",
+                des: "View all sub case",
                 total: totals.lectures,
                 url: "lectures",
               },
               {
-                name: "AssignLec...",
-                des: "View all Assign Lectures",
+                name: "Assign Case...",
+                des: "View all Assign Case",
                 total: totals.assignLectures,
                 url: "assignLectures",
               },
