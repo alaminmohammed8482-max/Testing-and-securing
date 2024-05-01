@@ -1,0 +1,41 @@
+.navabrContainer {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    .navbarInnerContainer {
+        width: 85%;
+        display: flex;
+        gap: 4rem;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        .weblogo h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .mobileMenu {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .navabrContainer {
+        .navbarInnerContainer {
+            div {
+                .navbarControllers {
+                    display: none;
+                }
+            }
+            .logoutButton {
+                display: none;
+            }
+            .mobileMenu {
+                display: block;
+                    
+            }
+        }
+    }
+}
+
